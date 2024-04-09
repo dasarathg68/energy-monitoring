@@ -1,0 +1,119 @@
+.logincard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    width: 35%;
+    color:black;
+    background: #ffffff;
+    box-shadow: 4px 0px 25px rgba(0, 0, 0, 0.15), 0px 4px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+  }
+  .settingscard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    width: 35%;
+    color:black;
+    background: #ffffff;
+    box-shadow: 4px 0px 25px rgba(0, 0, 0, 0.15), 0px 4px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+  }
+  .input {
+    width: 300px;
+    height: 48px;
+  
+    background: white;
+    border: 1px solid #c2c2c2;
+    border-radius: 10px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 20px;
+  
+    color: black;
+  }
+  .hello {
+    font-size: 33px;
+    margin-left: 40px;
+  }
+  
+  .welcome {
+    font-size: 37px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-left: 40px;
+  }
+  
+  .label1 {
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    padding-top: 10px;
+  }
+  
+  .label2 {
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
+  
+  .labelText {
+    font-weight: 600;
+  }
+  
+  .logButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 7px;
+    width: 10vw;
+    height: 40px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 18px;
+    border: 0;
+    margin-top: 30px;
+  }
+  
+  .logButton:hover {
+    background-color: grey;
+    /* opacity: 0%; */
+  }
+  @media screen and (max-width:850px){
+    /* .logincard{
+      width: 80%;
+    } */
+    .logButton{
+      width: 20vw;
+    }
+    .settingscard{
+      width:60%;
+    }
+  }
+  @media (max-width:768px) {
+    .logincard {
+      width: 90%;
+    }
+    .settingscard{
+      width:100%;
+    }
+    .logButton {
+      width: 30vw;
+    } 
+  }
+  

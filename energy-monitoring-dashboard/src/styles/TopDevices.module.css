@@ -1,0 +1,129 @@
+.cardContainer{
+   text-align: center;
+    background-color: #26282A;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* padding-top: 10px; */
+    height: 130px;
+    width:95%;
+    /* border: solid 0.2px grey; */
+}
+.textdiv {
+    color:var(--color);
+    font-size: 40px;
+    display: flex;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.currentdaycontainer{
+    text-align: center;
+     background-color: #26282A;
+     margin-top: 20px;
+     margin-left: 20px;
+     /* padding-top: 10px; */
+     height: 130px;
+     width:95%;
+     /* border: solid 0.2px grey; */
+ }
+.hourlypowercontainer{
+    text-align: center;
+     background-color: #26282A;
+     margin-top: 20px;
+     margin-left: 20px;
+     /* padding-top: 10px; */
+     height: 270px;
+     width:95%;
+     /* border: solid 0.2px grey; */
+ }
+.sevendaysusagecontainer{
+    text-align: center;
+     background-color: #26282A;
+     margin-top: 20px;
+     margin-left: 20px;
+     /* padding-top: 10px; */
+     height: 300px;
+     width:95%;
+     /* border: solid 0.2px grey; */
+ }
+.topdevicescontainer{
+    text-align: center;
+     background-color: #26282A;
+     margin-top: 20px;
+     margin-left: 20px;
+     /* padding-top: 10px; */
+     height: 300px;
+     /* color:white; */
+     width:95%;
+     /* border: solid 0.2px grey; */
+ }
+.heatMapContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+}
+.PowerSpikes{
+    text-align: center;
+     background-color: #26282A;
+     margin-top: 20px;
+     color:black;
+     margin-left: 20px;
+     /* padding-top: 10px; */
+     height: 300px;
+     width:95%;
+     /* border: solid 0.2px grey; */
+ }
+.montotalContainer{
+    text-align: center;
+    background-color: #26282A;
+    margin-top: 20px;
+    margin-left: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+     align-items: center;
+    /* padding-top: 10px; */
+    height: 360px;
+    width:95%;
+}
+.deviceContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.devices{
+font-size: medium;
+}
+.devicesPower{
+font-size:xx-small;
+font-weight: bolder;
+}
+.deviceBox{
+color:white;
+background-color: var(--color);
+height: 50px;
+width:120px;
+cursor: pointer;
+/* background-color: var(--color); */
+/* background-color: coral; */
+border: 0.5px solid var(--color);
+border-radius: 4px;
+margin:2px
+}
+@media (max-width:900px) {
+.devices{
+font-size: small;
+}
+.textdiv{
+    font-size:25px;
+}
+.devicesPower{
+font-size: xx-small;
+}
+.deviceBox{
+    height:80px;
+}
+}

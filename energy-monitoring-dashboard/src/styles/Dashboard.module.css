@@ -1,0 +1,124 @@
+.parent { 
+    display: flex; 
+    flex-direction: row; 
+} 
+
+.child1 { 
+    width: 50%; 
+    height: 100vh; 
+    text-align: right; 
+    color: white; 
+    display:flex;
+    flex-direction: column ;
+    /* justify-content: center;     */
+    /* border: solid 1px red */
+} 
+.Dropdown{
+    background-color: #26282A;
+}
+.modal_backdrop {
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    color:black;
+  }
+  .addButton{
+    border: solid 0.5px black;
+    border-radius: 5px;
+    color:white;
+    background-color: black;
+  }
+  addButton:hover{
+    background-color:grey;
+  }
+  .input {
+  width: 300px;
+  height: 48px;
+
+  background: white;
+  border: 1px solid #c2c2c2;
+  border-radius: 10px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 20px;
+
+  color: black;
+}
+.icons{
+    color:white;
+    display:flex;
+    align-items:center;
+    background-color: #26282A;
+    justify-content: center;
+    border:1px solid #26282A;
+    border-radius: 2px;
+    cursor:pointer;
+    margin :5px 0 0 20px;
+    height:30px;
+    width:30px;
+}
+.child2 { 
+    width: 50%; 
+    /* color: green;  */
+    height: 100vh; 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+} 
+.modal_backdrop_overall{
+
+}
+.PowerSpikes{
+    
+}
+.devicestatuscontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@media (max-width:768px) {
+    .devicestatuscontainer{
+        flex-direction: column;
+        margin-left: 35px;
+    }
+    .modal_backdrop_overall {
+        background-color: black;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat';
+        color:white;
+        /* border: 0.2px solid white; */
+      }
+    .parent { 
+        display: flex; 
+        flex-direction: column; 
+    } 
+    .PowerSpikes{
+        margin-top: 120px;
+    }
+    .child1 { 
+        width: 100%; 
+        height: 110vh; 
+        text-align: right; 
+        color: white; 
+        display:flex;
+        flex-direction: column ;
+        margin-bottom: 50px;
+        /* justify-content: center;     */
+        /* border: solid 1px red */
+    } 
+    
+    .child2 { 
+        width: 100%; 
+        /* color: green;  */
+        height: 100vh; 
+    } 
+}

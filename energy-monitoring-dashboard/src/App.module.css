@@ -1,0 +1,13 @@
+.container{
+    background-color: #000000;
+    font-family: 'Montserrat';
+    height: 145vh;
+    color:white;
+}
+
+@media (max-width:768px) {
+.container{
+    height:280vh;
+    width:130%;
+}
+}
